@@ -21,6 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
@@ -67,6 +68,7 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
+  color: #57cbcc;
 }
 
 a:focus, a:hover {
@@ -479,17 +481,15 @@ a:focus, a:hover {
   bottom: 0;
   left: 0;
 }
-/* --------------------------------------------- */
-/* .overly2::before  {
+.overly2:before {
   content: '';
-  background: rgba(0,25,48, .5);
+  background: rgb(255, 255, 255);
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-} */
-
+}
 
 .header-bradcrumb {
   background: transparent;
@@ -2555,6 +2555,29 @@ li a, .dropbtn {
      top: 50% ;
      right:5px;  
    }
+   .sideBar{
+    width: 100%;
+    background: #012445;
+    height: 650px;
+    padding: 25px;
+    text-align: center;
+    
+    /* box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px; */
+    /* border: rgba(0, 0, 0, 0.265) solid thin */
+   }
+   .sideBarLight{
+    width: 100%;
+    background: #f3f3f3;
+    height: 650px;
+    padding: 25px;
+    text-align: center;
+    
+    /* box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px; */
+    /* border: rgba(0, 0, 0, 0.265) solid thin */
+   }
+   .services-font {
+     font-size: 15px;
+  }
 
    
    
