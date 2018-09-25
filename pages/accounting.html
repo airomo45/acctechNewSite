@@ -78,12 +78,16 @@
 	<div class="container">
 		<div class="navbar-header">
 		  <!-- responsive nav button -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+          <ul id="nav" class="">
+                <li><a class="   
+                    mobileHomeButton
+                    " 
+                    data-scroll href="../index.html">
+                    <i style="color: #115f9e" class="fa fa-home"></i>
+                    Home</a></li>
+            
+    
+            </ul>
 			<!-- /responsive nav button -->
 
 			<!-- logo -->
@@ -94,16 +98,20 @@
 		<!-- /logo -->
 	</div>
 
-	<!-- main nav -->
+    <!-- main nav -->
+
 	<nav class="collapse navbar-collapse navbar-right" role="Navigation">
-		<ul id="nav" class="nav navbar-nav navigation-menu">
+		<ul id="nav" class="">
             <li><a style="   
-                background: #001930;
+                background: #f3f3f3;
                 font-weight: bold;
-                color: white;
-                font-size: 20px " 
+                color: #115f9e;
+                font-size: 20px;
+                font-family: Quattrocento Sans, sans-serif;
+                box-shadow: 0px 3px 9px 1px #88888840;
+                " 
                 data-scroll href="../index.html">
-                <i style="color: #ffffff" class="fa fa-arrow-left"></i>
+                <i style="color: #115f9e" class="fa fa-home"></i>
                 Go Back Home</a></li>
 		
 
@@ -131,22 +139,22 @@ Welcome Slider
 		</div>
 
      </div> -->
-     <section id="" style="margin-top: -60px;" class="parallax-section section section-bg overly">
+     <section id="" style="margin-top: -60px;" class="parallax-section section section-bg overly2">
 			<div style="width: 100%;" class="container">
 				<div class="row" >
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="title text-center">
-							<h2>Accounting <span class="lightTitle">Services</span></h2>
-							<div class="border"></div>
+							<h2><span class="darkTitle">Accounting</span> <span class="lightTitle">Services</span></h2>
+							<div class="borderLight"></div>
 						</div>
                     </div>
 
                 </div>
                 <div class="row">
-                        <div style="padding-left: 120px; margin-left: 50px" class="col-md-8">
+                        <div style="" class="col-md-8 serviceColumn">
 
-							<img class="img-responsive" src="../images/pages/accounting.jpg" alt="">
+							<img class="img-responsive " src="../images/pages/accounting.jpg" alt="">
 							&nbsp;
                             <p class="services-font">
                                     Besides our wholesale bookkeeping service we also offer retail bookkeeping.
@@ -168,10 +176,10 @@ Welcome Slider
                             </p>
                         </div>
                    
-                        <div style="padding-right: 120px" class="col-md-3">
-                                <div class="sideBar">
+                        <div style="" class="col-md-3 sideBarPadding">
+                                <div class="sideBarLight">
 									<div style="text-align: center; padding: 10px">
-										<img class="img-responsive" src="../images/pages/ADP.png" alt="">
+										<img class="img-responsive mobileImage" src="../images/pages/ADP.png" alt="">
 									</div>
 									<div>
 										<h1>Related Links:</h1>
@@ -197,12 +205,88 @@ Welcome Slider
     </section>
 
 
+		    <!-- Srart Contact Us
+=========================================== -->		
+<section style="box-shadow: 0px 3px 9px 3px #88888840;" id="contact-us" class="contact-us section-bg">
+        <div class="container">
+            <div class="row">
+                
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2><span class="darkTitle">Get In</span>  <span class="lightTitle">Touch</span></h2>
+                    <div class="borderLight"></div>
+                </div>
+                <!-- /section title -->
+                
+                <!-- Contact Details -->
+                <div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+                    <h3>Contact Details</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.</p>
+                    <div class="contact-details">
+                        <div class="con-info clearfix">
+                            <i class="tf-map-pin"></i>
+                            <span>14555 S Robert Trail Suite 202/204, Rosemount MN, 55068</span>
+                        </div>
+                        
+                        <div class="con-info clearfix">
+                            <i class="tf-ion-ios-telephone-outline"></i>
+                            <span>Phone: 612-802-9771</span>
+                        </div>
+                        
+                        <div class="con-info clearfix">
+                            <i class="tf-ion-iphone"></i>
+                            <span>Voice/Text: 612-293-7657</span>
+                        </div>
+                        
+                        <div class="con-info clearfix">
+                            <i class="tf-ion-ios-email-outline"></i>
+                            <span>Email: info@acctechllc.com</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / End Contact Details -->
+                    
+                <!-- Contact Form -->
+                <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <form id="contact-form" method="post" action="sendmail.php" role="form">
+                    
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" value="Accounting" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+                        </div>
+                        
+                        <div id="mail-success" class="success">
+                            Thank you. The Mailman is on His Way :)
+                        </div>
+                        
+                        <div id="mail-fail" class="error">
+                            Sorry, don't know what happened. Try later :(
+                        </div>
+                        
+                        <div id="cf-submit">
+                            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                        </div>						
+                        
+                    </form>
+                </div>
+                <!-- ./End Contact Form -->
+            
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section> <!-- end section -->
 		
-		
-		<!-- end Contact Area
-		========================================== -->
-		
-		<footer id="footer" class="bg-one">
+		<footer style="box-shadow: 0px 3px 9px 3px #88888840;" id="footer" class="bg-one">
 			<div class="container">
 			    <div class="row wow fadeInUp" data-wow-duration="500ms">
 				<div class="col-md-3">
