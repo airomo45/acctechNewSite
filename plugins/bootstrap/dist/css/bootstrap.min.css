@@ -3570,6 +3570,7 @@ input[type="submit"].btn-block {
 .collapse {
   display: none;
 }
+@media only screen and (max-width: 768px) {
 .collapse.in {
   display: block;
 }
@@ -3592,6 +3593,7 @@ tbody.collapse.in {
   -webkit-transition-property: height, visibility;
   -o-transition-property: height, visibility;
   transition-property: height, visibility;
+}
 }
 .caret {
   display: inline-block;
