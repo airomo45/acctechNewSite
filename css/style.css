@@ -556,7 +556,13 @@ a:focus, a:hover {
   left: 0;
   bottom: 0;
 }
-
+.emergency{
+  background-color: rgb(209, 48, 48);
+  text-align: center;
+  width: 100%;
+  margin: 5px 5px 2px 5px;
+    color: white
+}
 /*=================================================================
   Navigation
 ==================================================================*/
